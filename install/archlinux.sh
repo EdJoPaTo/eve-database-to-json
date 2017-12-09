@@ -6,4 +6,4 @@ sudo systemctl start mysqld.service
 
 echo
 echo
-echo !! uncomment extension=mysqli.so at the end of /etc/php/php.ini !!
+echo uncomment extension=mysqli in /etc/php/php.ini
