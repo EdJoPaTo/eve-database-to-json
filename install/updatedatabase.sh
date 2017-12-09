@@ -8,3 +8,6 @@ tar xjf mysql-latest.tar.bz2
 
 echo inject into database…
 mysql --user=user --password=password evedump < **/*.sql
+
+echo delete downloaded files…
+rm -rf /tmp/evedump
